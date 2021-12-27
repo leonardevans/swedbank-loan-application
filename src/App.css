@@ -1,0 +1,77 @@
+.title{
+  color: #f35b1c;
+}
+
+.sub-title{
+  color: #512b2b;
+}
+
+.required{
+  color: #f35b1c;
+}
+
+.complete-section{
+  background-color: #99cc66;
+  color: #ffffff;
+}
+
+.centered{
+  text-align: center;
+}
+
+.input-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+
+@media (max-width: 640px) {
+  .input-group{
+    flex-direction: column;
+  }
+}
+
+label{
+  color: #a38b80;
+  padding: 5px;
+  text-align: right;
+}
+
+.loan-section{
+  border-bottom: 1px solid #a38b80;
+
+}
+
+
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="textarea"],
+textarea,
+select{
+  align-self: flex-start;
+    padding-top: 14px;
+    padding-bottom: 12px;
+
+}
+
+select {
+  background-color: #EBF8F2;
+  width: 200px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right:12px 30px 12px 5px;
+  position: relative;
+  border: 1px solid #a1dee9;
+}
+
+.f-header{
+  color: #512b2b;
+  text-align: left;
+}
