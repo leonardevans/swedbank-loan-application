@@ -1,9 +1,10 @@
-import React from 'react';
+import React , {useState, useEffect} from 'react';
 import styled from 'styled-components';
 
-export default function Application (){
+export default function Application (props){
+
     return (
-        <ApplicationCont className='centered'>
+        <ApplicationCont className= ' centered' style={{display: props.display}}>
             <div className="input-group">
                 <label for="loan-amount">Loan Amount <span className="required">*</span></label>
                 <input type="number" id="loan-amount" />

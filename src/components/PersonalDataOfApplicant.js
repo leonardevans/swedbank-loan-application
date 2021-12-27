@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function PersonalDataOfApplicant(){
+export default function PersonalDataOfApplicant(props){
     return(
-        <div className='centered'>
+        <div className='centered' style={{display: props.display}}>
             <div className='loan-section'>
                 <h3 className='f-header'>Borrowers Data</h3>
 

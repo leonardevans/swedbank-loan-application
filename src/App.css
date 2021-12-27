@@ -11,8 +11,8 @@
 }
 
 .complete-section{
-  background-color: #99cc66;
-  color: #ffffff;
+  background-color: #99cc66 !important;
+  color: #ffffff !important;
 }
 
 .centered{
@@ -74,4 +74,21 @@ select {
 .f-header{
   color: #512b2b;
   text-align: left;
+}
+
+.required-field{
+  border: 1px solid red;
+}
+
+.hidden{
+  display: none;
+}
+
+.visible{
+  display: block;
+}
+
+.disabled {
+  pointer-events:none !important;
+  opacity:0.6 !important;        
 }
